@@ -18,3 +18,17 @@ void PalindromeNumber(string number)
 }
 
 PalindromeNumber(number);
+
+// int number = new Random().Next(100000);
+// int num = number.ToString(number);
+
+// void PalindromeNumber(string num)
+// {
+//     if (num[0] == num[4] || num[1] == num[3])
+//     {
+//         Console.WriteLine($"Число {num} - палиндром.");
+//     }
+//     else Console.WriteLine($"Число {num} - не является палиндромом.");
+// }
+
+// PalindromeNumber(num);
