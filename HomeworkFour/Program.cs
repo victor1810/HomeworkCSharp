@@ -15,8 +15,8 @@ int SumNum(int num)
 
     for (int i = 0; i < count; i++)
     {
-        step = num - num % 10;
-        sum = sum + (num - step);
+        step = num % 10;
+        sum = sum + step;
         num = num / 10;
     }
     return sum;
