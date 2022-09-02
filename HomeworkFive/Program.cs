@@ -9,5 +9,4 @@ for (int i = 0; i < array.Length; i++)
     if (array[i] % 2 == 0)
         j += 1;
 
-
 Console.Write($"[{array[0]}, {array[1]}, {array[2]}, {array[3]}] -> {j}");
