@@ -3,7 +3,10 @@
 
 [345, 897, 568, 234] -> 2                           */
 
-int[] array = { new Random().Next(1000), new Random().Next(1000), new Random().Next(1000), new Random().Next(1000) };
+int[] array = { new Random().Next(1000),
+                new Random().Next(1000),
+                new Random().Next(1000),
+                new Random().Next(1000) };
 int j = 0;
 for (int i = 0; i < array.Length; i++)
     if (array[i] % 2 == 0)
