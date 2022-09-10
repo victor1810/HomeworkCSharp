@@ -6,9 +6,9 @@ Console.WriteLine();
 int m = InputNumbers("Введите m: ");
 int n = InputNumbers("Введите n: ");
 
-int funAkkerman = Ack(m, n);
+int funAckermann = Ack(m, n);
 
-Console.WriteLine($"A(m,n) = {funAkkerman}\n");
+Console.WriteLine($"A(m,n) = {funAckermann}\n");
 
 int InputNumbers(string input)
 {
