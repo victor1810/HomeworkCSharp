@@ -3,11 +3,13 @@
 M = 1; N = 15 -> 120
 M = 4; N = 8. -> 30                    */
 
-int m = InputNumbers("");
-int n = InputNumbers("");
+int m = new Random().Next(-9, 10);
+int n = new Random().Next(-9, 10);
 int temp = m;
+
 Console.WriteLine($"M = {m}");
-Console.WriteLine($"N = {n}");
+Console.WriteLine($"N = {n}\n");
+
 if (m > n)
 {
     m = n;
@@ -21,15 +23,8 @@ void PrintSumm(int m, int n, int summ)
     summ = summ + n;
     if (n <= m)
     {
-        Console.Write($"Сумма элементов = {summ} ");
+        Console.Write($"Сумма элементов = {summ}");
         return;
     }
     PrintSumm(m, n - 1, summ);
-}
-
-int InputNumbers(string input)
-{
-    Console.Write(input);
-    int output = new Random().Next(-9, 10);
-    return output;
 }
